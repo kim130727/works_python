@@ -6,7 +6,7 @@ print (m)
 
 print(Chem.MolToMolBlock(m))
 
-# 구조 그리기
+# 구조 그리기2
 from rdkit.Chem import Draw
 print (Draw.MolToFile(m,'cdk2.png'))
 
